@@ -1,10 +1,12 @@
 //imports
 import React from 'react';
+import 'bootstrap/dist/css/bootstrap.min.css';
 //components
-// import Card from './components/Card';
 import SwApi from './services/sw-api';
+//css
+import './App.css'
 
-const App = () => {
+const App = (prop) => {
   return (
     <div>
       <h1>STAR WARS</h1>

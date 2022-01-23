@@ -1,0 +1,13 @@
+h1{
+    text-align: center;
+    padding: 50px;
+}
+
+.page{
+    display: inline-block;
+    margin: 5px;
+}
+
+card-group{
+    margin: 10px;
+}

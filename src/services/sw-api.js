@@ -1,6 +1,6 @@
 import React, { useState, useEffect } from "react";
 import axios from "axios";
-import Card from "../components/Card";
+import Page from "../components/Page";
 
 const SwApi = () => {
 
@@ -20,7 +20,7 @@ const SwApi = () => {
 
   function createCards(ship) {
     return(
-      <Card
+      <Page
         key={ship.name}
         name = {ship.name}
         price = {ship.cost_in_credits}
@@ -34,7 +34,6 @@ const SwApi = () => {
     <div>
 
       {ships.map(createCards)}
-      <button>Next page</button>
 
     </div>
   );
